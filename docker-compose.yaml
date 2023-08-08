@@ -33,17 +33,17 @@ services:
   #     - mongo
 
   # mongo:
-    image: mongo
-    ports:
-      - 27017:27017
-    container_name: mongo-container_name
-    networks:
-      - mern-stack-network
-    volumes:
-      - mongoData:/data/db
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME = root
-      - MONGO_INITDB_ROOT_PASSWORD = root
+  #   image: mongo
+  #   ports:
+  #     - 27017:27017
+  #   container_name: mongo-container_name
+  #   networks:
+  #     - mern-stack-network
+  #   volumes:
+  #     - mongoData:/data/db
+  #   environment:
+  #     - MONGO_INITDB_ROOT_USERNAME = root
+  #     - MONGO_INITDB_ROOT_PASSWORD = root
 
 
 # Whole compose for networks
