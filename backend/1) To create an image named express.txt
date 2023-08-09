@@ -1,0 +1,19 @@
+                                    Same Point for frontend and backend
+1) Dockerfile.dev is used for development purpose and Dockerfile is used for production purpose.
+
+2) .dockerignore file 
+
+
+POINT 3) and 4) only if you are using building image for just to check else don't do these steps just do step 6 to make and run the container
+3) To create an image of frontend or backend ---> [docker build -t image_name .] 
+
+4) To create an container ---> [docker run -d -p 5500:5500 --name container_name image_name]
+-d == means detached mode that means the container runs on new terminal not on current one
+
+5) docker-compose.yaml file is used to run multiple containers at a time.
+
+6) To make a compose - [docker-compose up -d]  in detached mode TO RUN thw whlole project
+
+7) To stop the project - [docker-compose down]
+
+8) iN Backend use -L in this "dev": "nodemon -L server.js"
