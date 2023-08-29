@@ -12,7 +12,7 @@ POINT 3) and 4) only if you are using building image for just to check else don'
 
 5) docker-compose.yaml file is used to run multiple containers at a time.
 
-# 6)                          docker-compose up --build                      --> then step - 6
+# 6)                     [      docker-compose up --build        ]               --> then step - 6
 7) To make a compose - [docker compose up -d] in detached mode TO RUN thw whlole project
 
 8) To stop the project - [docker compose down]
